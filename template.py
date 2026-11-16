@@ -1,9 +1,9 @@
 """
-Competitive Programming Python 3 / PyPy 3 Solution Template
-Copy this file inside ComProg/solutions/ (e.g. 4A_watermelon.py), fill in solve()
-and TEST_CASES, then run:
-    python3 ../run_tests.py solutions/4A_watermelon.py
-When all TEST_CASES pass, it automatically commits & pushes to Rai3256/problemZ.
+Competitive Programming Python 3 / PyPy 3 Template
+Save files inside ComProg/solutions/ (e.g. 4A_watermelon.py), paste to Codeforces to test,
+then run in terminal after AC:
+    pz 4A_watermelon.py
+(or just `pz` if it's the only modified/new file in ComProg/solutions/)
 """
 
 import sys
@@ -26,11 +26,6 @@ def solve():
         out.append(str(sum(arr)))
 
     sys.stdout.write("\n".join(out) + "\n")
-
-
-TEST_CASES = [
-    ("2\n3\n1 2 3\n2\n4 5\n", "6\n9\n"),
-]
 
 
 if __name__ == "__main__":
