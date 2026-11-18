@@ -1,0 +1,12 @@
+*
+!*/
+build/
+*.dSYM/
+!*.cpp
+!*.cc
+!*.cxx
+!*.hpp
+!*.h
+!*.c
+!.gitignore
+!README.md
